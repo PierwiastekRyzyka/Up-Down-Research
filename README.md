@@ -1,4 +1,4 @@
-# Nieefektywności na 5-minutowych rynkach BTC na Polymarkecie
+# Poszukiwanie nieefektywności na 5-minutowych rynkach BTC na Polymarkecie
 
 Badanie, czy na rynkach „Bitcoin Up or Down” (okno 5 minut, rozliczenie TWAP-60s) występują
 nieefektywności cenowe, na których da się systematycznie zarabiać po uwzględnieniu opłat,
