@@ -1,0 +1,275 @@
+{
+  "markets": 2676,
+  "winner_cheap_by_bucket_pct": {
+    "<= 0.05": {
+      "5–4 min": 0.0,
+      "4–3 min": 0.1495,
+      "3–2 min": 0.8595,
+      "2–1 min": 1.6069,
+      "60–30 s": 1.1211,
+      "ostatnie 30 s": 0.4484
+    },
+    "<= 0.10": {
+      "5–4 min": 0.2616,
+      "4–3 min": 1.9806,
+      "3–2 min": 3.7369,
+      "2–1 min": 3.6622,
+      "60–30 s": 2.429,
+      "ostatnie 30 s": 0.7474
+    },
+    "<= 0.20": {
+      "5–4 min": 4.7833,
+      "4–3 min": 9.1928,
+      "3–2 min": 9.8655,
+      "2–1 min": 8.6323,
+      "60–30 s": 4.2227,
+      "ostatnie 30 s": 1.42
+    },
+    "<= 0.30": {
+      "5–4 min": 14.6861,
+      "4–3 min": 18.9088,
+      "3–2 min": 16.3677,
+      "2–1 min": 13.5277,
+      "60–30 s": 5.9791,
+      "ostatnie 30 s": 2.0927
+    },
+    "<= 0.40": {
+      "5–4 min": 36.3976,
+      "4–3 min": 31.4649,
+      "3–2 min": 24.4395,
+      "2–1 min": 18.5725,
+      "60–30 s": 7.9223,
+      "ostatnie 30 s": 2.8027
+    }
+  },
+  "winner_cheap_last_3min_pct": {
+    "<= 0.10": 7.0654,
+    "<= 0.20": 14.6916,
+    "<= 0.30": 21.6822
+  },
+  "winner_cheap_last_1min_pct": {
+    "<= 0.10": 3.4064,
+    "<= 0.20": 5.8329,
+    "<= 0.30": 8.1661
+  },
+  "conditional": [
+    {
+      "level": 0.1,
+      "bucket": "ostatnie 30 s",
+      "n": 321,
+      "entry_price": 0.0737,
+      "win_rate": 0.0685,
+      "pnl_c": -0.9156,
+      "t": -0.7134
+    },
+    {
+      "level": 0.1,
+      "bucket": "60–30 s",
+      "n": 836,
+      "entry_price": 0.0851,
+      "win_rate": 0.0837,
+      "pnl_c": -0.6196,
+      "t": -0.6893
+    },
+    {
+      "level": 0.1,
+      "bucket": "2–1 min",
+      "n": 1647,
+      "entry_price": 0.0933,
+      "win_rate": 0.0868,
+      "pnl_c": -1.2197,
+      "t": -1.7995
+    },
+    {
+      "level": 0.1,
+      "bucket": "3–2 min",
+      "n": 1605,
+      "entry_price": 0.1025,
+      "win_rate": 0.0978,
+      "pnl_c": -1.1012,
+      "t": -1.4956
+    },
+    {
+      "level": 0.1,
+      "bucket": "4–3 min",
+      "n": 1095,
+      "entry_price": 0.1197,
+      "win_rate": 0.1196,
+      "pnl_c": -0.7312,
+      "t": -0.7564
+    },
+    {
+      "level": 0.1,
+      "bucket": "5–4 min",
+      "n": 294,
+      "entry_price": 0.1278,
+      "win_rate": 0.119,
+      "pnl_c": -1.648,
+      "t": -0.8806
+    },
+    {
+      "level": 0.2,
+      "bucket": "ostatnie 30 s",
+      "n": 157,
+      "entry_price": 0.1797,
+      "win_rate": 0.2038,
+      "pnl_c": 1.6593,
+      "t": 0.6212
+    },
+    {
+      "level": 0.2,
+      "bucket": "60–30 s",
+      "n": 521,
+      "entry_price": 0.1886,
+      "win_rate": 0.2169,
+      "pnl_c": 1.8845,
+      "t": 1.1353
+    },
+    {
+      "level": 0.2,
+      "bucket": "2–1 min",
+      "n": 1317,
+      "entry_price": 0.1945,
+      "win_rate": 0.1898,
+      "pnl_c": -1.5194,
+      "t": -1.4402
+    },
+    {
+      "level": 0.2,
+      "bucket": "3–2 min",
+      "n": 1646,
+      "entry_price": 0.197,
+      "win_rate": 0.1926,
+      "pnl_c": -1.5214,
+      "t": -1.5946
+    },
+    {
+      "level": 0.2,
+      "bucket": "4–3 min",
+      "n": 1703,
+      "entry_price": 0.2032,
+      "win_rate": 0.2008,
+      "pnl_c": -1.3531,
+      "t": -1.4107
+    },
+    {
+      "level": 0.2,
+      "bucket": "5–4 min",
+      "n": 995,
+      "entry_price": 0.2089,
+      "win_rate": 0.2121,
+      "pnl_c": -0.8222,
+      "t": -0.6396
+    },
+    {
+      "level": 0.3,
+      "bucket": "ostatnie 30 s",
+      "n": 111,
+      "entry_price": 0.3006,
+      "win_rate": 0.3063,
+      "pnl_c": -0.4994,
+      "t": -0.1378
+    },
+    {
+      "level": 0.3,
+      "bucket": "60–30 s",
+      "n": 400,
+      "entry_price": 0.2953,
+      "win_rate": 0.2775,
+      "pnl_c": -3.0125,
+      "t": -1.4828
+    },
+    {
+      "level": 0.3,
+      "bucket": "2–1 min",
+      "n": 1173,
+      "entry_price": 0.2954,
+      "win_rate": 0.3112,
+      "pnl_c": 0.187,
+      "t": 0.1427
+    },
+    {
+      "level": 0.3,
+      "bucket": "3–2 min",
+      "n": 1617,
+      "entry_price": 0.2946,
+      "win_rate": 0.2894,
+      "pnl_c": -1.9331,
+      "t": -1.7373
+    },
+    {
+      "level": 0.3,
+      "bucket": "4–3 min",
+      "n": 2101,
+      "entry_price": 0.2983,
+      "win_rate": 0.3027,
+      "pnl_c": -0.9966,
+      "t": -1.0061
+    },
+    {
+      "level": 0.3,
+      "bucket": "5–4 min",
+      "n": 2050,
+      "entry_price": 0.307,
+      "win_rate": 0.3088,
+      "pnl_c": -1.2823,
+      "t": -1.2739
+    },
+    {
+      "level": 0.4,
+      "bucket": "ostatnie 30 s",
+      "n": 83,
+      "entry_price": 0.3505,
+      "win_rate": 0.3855,
+      "pnl_c": 2.3716,
+      "t": 0.5385
+    },
+    {
+      "level": 0.4,
+      "bucket": "60–30 s",
+      "n": 349,
+      "entry_price": 0.3876,
+      "win_rate": 0.4097,
+      "pnl_c": 0.8025,
+      "t": 0.3305
+    },
+    {
+      "level": 0.4,
+      "bucket": "2–1 min",
+      "n": 1042,
+      "entry_price": 0.3961,
+      "win_rate": 0.4088,
+      "pnl_c": -0.3162,
+      "t": -0.2136
+    },
+    {
+      "level": 0.4,
+      "bucket": "3–2 min",
+      "n": 1510,
+      "entry_price": 0.3987,
+      "win_rate": 0.4046,
+      "pnl_c": -1.0346,
+      "t": -0.8305
+    },
+    {
+      "level": 0.4,
+      "bucket": "4–3 min",
+      "n": 2108,
+      "entry_price": 0.4006,
+      "win_rate": 0.3947,
+      "pnl_c": -2.2376,
+      "t": -2.1311
+    },
+    {
+      "level": 0.4,
+      "bucket": "5–4 min",
+      "n": 3105,
+      "entry_price": 0.405,
+      "win_rate": 0.4039,
+      "pnl_c": -1.7676,
+      "t": -2.0309
+    }
+  ],
+  "max_abs_t": 2.1311,
+  "cells_t_above_2": 0
+}

@@ -1,0 +1,60 @@
+{
+  "overall": {
+    "records_in_window": 4015170,
+    "wallets": 35259,
+    "markets": 2676,
+    "shares": 119275092.8805,
+    "notional_usd": 61268693.3628,
+    "taker_pnl_gross_usd": -18037.1568,
+    "fees_usd": 1092729.7914,
+    "taker_pnl_gross_c_per_share": -0.0151,
+    "fee_c_per_share": 0.9161
+  },
+  "persistence": {
+    "t_H1>2": {
+      "wallets": 80,
+      "positive_H2_pct": 56.25,
+      "roi_H2_pct": -0.6119,
+      "pnl_H2_usd": -12011.4334
+    },
+    "t_H1>3": {
+      "wallets": 50,
+      "positive_H2_pct": 56.0,
+      "roi_H2_pct": -0.9425,
+      "pnl_H2_usd": -14403.8913
+    },
+    "t_H1>4": {
+      "wallets": 38,
+      "positive_H2_pct": 57.8947,
+      "roi_H2_pct": -1.1193,
+      "pnl_H2_usd": -15619.4762
+    },
+    "all_active": {
+      "wallets": 2729,
+      "positive_H2_pct": 36.2037,
+      "roi_H2_pct": -0.7929,
+      "pnl_H2_usd": -165725.1288
+    },
+    "top_roi_decile_H1": {
+      "wallets": 273,
+      "roi_H2_pct": -1.2434
+    },
+    "spearman_roi": 0.0828
+  },
+  "stable_wallets": {
+    "wallets": 13,
+    "trades": 3016,
+    "pnl_net_usd": 3964.6703,
+    "buy_share_pct": 99.9337,
+    "median_price": 0.99,
+    "price_ge_0.90_pct": 99.8674,
+    "last_2min_pct": 53.0504,
+    "median_second": 184.0,
+    "losing_trades": 8,
+    "hit_rate_size_weighted_pct": 99.9908,
+    "pnl_gross_c_per_share": 0.8883,
+    "pnl_net_c_per_share": 0.8264,
+    "model_edge_c": -1.3645,
+    "notional_usd": 475427.3002
+  }
+}

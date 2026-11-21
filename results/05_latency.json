@@ -1,0 +1,290 @@
+{
+  "observations": 25389,
+  "information_decay": {
+    "0": {
+      "coef_model": 0.2767,
+      "t": 5.4705
+    },
+    "1": {
+      "coef_model": 0.2159,
+      "t": 4.1322
+    },
+    "2": {
+      "coef_model": 0.1427,
+      "t": 2.5821
+    },
+    "3": {
+      "coef_model": 0.0676,
+      "t": 1.1794
+    },
+    "4": {
+      "coef_model": 0.0224,
+      "t": 0.3914
+    },
+    "5": {
+      "coef_model": -0.0063,
+      "t": -0.1133
+    },
+    "6": {
+      "coef_model": -0.013,
+      "t": -0.2526
+    },
+    "7": {
+      "coef_model": -0.0146,
+      "t": -0.3044
+    },
+    "8": {
+      "coef_model": -0.0056,
+      "t": -0.1241
+    }
+  },
+  "lead_lag": {
+    "1": {
+      "beta": -0.0061,
+      "t": -1.3243
+    },
+    "2": {
+      "beta": -0.0019,
+      "t": -0.388
+    },
+    "3": {
+      "beta": -0.0023,
+      "t": -0.3583
+    },
+    "5": {
+      "beta": 0.0068,
+      "t": 0.9562
+    },
+    "10": {
+      "beta": 0.0089,
+      "t": 0.8812
+    },
+    "20": {
+      "beta": 0.0102,
+      "t": 0.7908
+    }
+  },
+  "max_abs_t_lead": 1.3243,
+  "favourite_taker": {
+    "0s": {
+      "all": {
+        "markets": 1011,
+        "price": 0.9593,
+        "hit_rate": 0.9822,
+        "losses": 18,
+        "pnl_c": 2.0218,
+        "t": 4.9117
+      },
+      "gross": {
+        "markets": 1011,
+        "price": 0.9593,
+        "hit_rate": 0.9822,
+        "losses": 18,
+        "pnl_c": 2.2908,
+        "t": 5.5628
+      },
+      "fee_0.05": {
+        "markets": 1011,
+        "price": 0.9593,
+        "hit_rate": 0.9822,
+        "losses": 18,
+        "pnl_c": 2.0987,
+        "t": 5.0979
+      },
+      "H1": {
+        "markets": 552,
+        "price": 0.9588,
+        "hit_rate": 0.9855,
+        "losses": 8,
+        "pnl_c": 2.3948,
+        "t": 4.7559
+      },
+      "H2": {
+        "markets": 459,
+        "price": 0.9599,
+        "hit_rate": 0.9782,
+        "losses": 10,
+        "pnl_c": 1.5707,
+        "t": 2.3207
+      }
+    },
+    "1s": {
+      "all": {
+        "markets": 905,
+        "price": 0.9612,
+        "hit_rate": 0.979,
+        "losses": 19,
+        "pnl_c": 1.5223,
+        "t": 3.2223
+      },
+      "gross": {
+        "markets": 905,
+        "price": 0.9612,
+        "hit_rate": 0.979,
+        "losses": 19,
+        "pnl_c": 1.7792,
+        "t": 3.7651
+      },
+      "fee_0.05": {
+        "markets": 905,
+        "price": 0.9612,
+        "hit_rate": 0.979,
+        "losses": 19,
+        "pnl_c": 1.5957,
+        "t": 3.3774
+      },
+      "H1": {
+        "markets": 501,
+        "price": 0.9611,
+        "hit_rate": 0.982,
+        "losses": 9,
+        "pnl_c": 1.8364,
+        "t": 3.126
+      },
+      "H2": {
+        "markets": 404,
+        "price": 0.9618,
+        "hit_rate": 0.9752,
+        "losses": 10,
+        "pnl_c": 1.091,
+        "t": 1.4196
+      }
+    },
+    "2s": {
+      "all": {
+        "markets": 804,
+        "price": 0.9636,
+        "hit_rate": 0.9764,
+        "losses": 19,
+        "pnl_c": 1.0394,
+        "t": 1.9504
+      },
+      "gross": {
+        "markets": 804,
+        "price": 0.9636,
+        "hit_rate": 0.9764,
+        "losses": 19,
+        "pnl_c": 1.2812,
+        "t": 2.4034
+      },
+      "fee_0.05": {
+        "markets": 804,
+        "price": 0.9636,
+        "hit_rate": 0.9764,
+        "losses": 19,
+        "pnl_c": 1.1085,
+        "t": 2.0799
+      },
+      "H1": {
+        "markets": 453,
+        "price": 0.9636,
+        "hit_rate": 0.9801,
+        "losses": 9,
+        "pnl_c": 1.4129,
+        "t": 2.1612
+      },
+      "H2": {
+        "markets": 351,
+        "price": 0.9648,
+        "hit_rate": 0.9715,
+        "losses": 10,
+        "pnl_c": 0.4387,
+        "t": 0.4984
+      }
+    },
+    "5s": {
+      "all": {
+        "markets": 618,
+        "price": 0.9634,
+        "hit_rate": 0.9709,
+        "losses": 18,
+        "pnl_c": 0.5023,
+        "t": 0.7507
+      },
+      "gross": {
+        "markets": 618,
+        "price": 0.9634,
+        "hit_rate": 0.9709,
+        "losses": 18,
+        "pnl_c": 0.7452,
+        "t": 1.1139
+      },
+      "fee_0.05": {
+        "markets": 618,
+        "price": 0.9634,
+        "hit_rate": 0.9709,
+        "losses": 18,
+        "pnl_c": 0.5717,
+        "t": 0.8545
+      },
+      "H1": {
+        "markets": 356,
+        "price": 0.9631,
+        "hit_rate": 0.9719,
+        "losses": 10,
+        "pnl_c": 0.6392,
+        "t": 0.74
+      },
+      "H2": {
+        "markets": 262,
+        "price": 0.9636,
+        "hit_rate": 0.9695,
+        "losses": 8,
+        "pnl_c": 0.3412,
+        "t": 0.3207
+      }
+    },
+    "10s": {
+      "all": {
+        "markets": 517,
+        "price": 0.9601,
+        "hit_rate": 0.9729,
+        "losses": 14,
+        "pnl_c": 1.0213,
+        "t": 1.4451
+      },
+      "gross": {
+        "markets": 517,
+        "price": 0.9601,
+        "hit_rate": 0.9729,
+        "losses": 14,
+        "pnl_c": 1.2851,
+        "t": 1.8184
+      },
+      "fee_0.05": {
+        "markets": 517,
+        "price": 0.9601,
+        "hit_rate": 0.9729,
+        "losses": 14,
+        "pnl_c": 1.0967,
+        "t": 1.5518
+      },
+      "H1": {
+        "markets": 301,
+        "price": 0.9604,
+        "hit_rate": 0.9767,
+        "losses": 7,
+        "pnl_c": 1.3694,
+        "t": 1.5881
+      },
+      "H2": {
+        "markets": 216,
+        "price": 0.9605,
+        "hit_rate": 0.9676,
+        "losses": 7,
+        "pnl_c": 0.4463,
+        "t": 0.3722
+      }
+    },
+    "no_model_filter": {
+      "all": {
+        "markets": 2676,
+        "price": 0.9067,
+        "hit_rate": 0.904,
+        "losses": 257,
+        "pnl_c": -0.8625,
+        "t": -1.5163
+      }
+    }
+  }
+}

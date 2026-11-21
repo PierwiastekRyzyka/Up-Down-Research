@@ -1,0 +1,35 @@
+{
+  "markets": 2680,
+  "first": "2026-10-23 00:00:00",
+  "last": "2026-11-19 23:45:00",
+  "share_up": 0.4907,
+  "agreement": {
+    "twap60_last_vs_twap60_before": 0.9836,
+    "full_window_mean_vs_open": 0.8701,
+    "full_window_mean_vs_twap60_before": 0.8866
+  },
+  "agreement_by_margin_bp": {
+    "[0.0, 1.0)": {
+      "agreement": 0.8252,
+      "n": 246
+    },
+    "[1.0, 2.0)": {
+      "agreement": 0.996,
+      "n": 252
+    },
+    "[2.0, 5.0)": {
+      "agreement": 1.0,
+      "n": 635
+    },
+    "[5.0, 10.0)": {
+      "agreement": 1.0,
+      "n": 684
+    },
+    "[10.0, inf)": {
+      "agreement": 1.0,
+      "n": 863
+    }
+  },
+  "mismatches": 44,
+  "mismatches_below_2bp_pct": 100.0
+}

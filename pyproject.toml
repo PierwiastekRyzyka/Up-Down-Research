@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pm5m"
+version = "1.0.0"
+description = "Microstructure of Polymarket's 5-minute Bitcoin Up or Down markets"
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "pyarrow", "scipy", "matplotlib"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

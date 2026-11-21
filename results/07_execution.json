@@ -1,0 +1,1161 @@
+{
+  "favourite_taker": {
+    "0s": {
+      "all": {
+        "markets": 1011,
+        "price": 0.9593,
+        "hit_rate": 0.9822,
+        "losses": 18,
+        "pnl_c": 2.0218,
+        "t": 4.9117
+      },
+      "gross": {
+        "markets": 1011,
+        "price": 0.9593,
+        "hit_rate": 0.9822,
+        "losses": 18,
+        "pnl_c": 2.2908,
+        "t": 5.5628
+      },
+      "fee_0.05": {
+        "markets": 1011,
+        "price": 0.9593,
+        "hit_rate": 0.9822,
+        "losses": 18,
+        "pnl_c": 2.0987,
+        "t": 5.0979
+      },
+      "H1": {
+        "markets": 552,
+        "price": 0.9588,
+        "hit_rate": 0.9855,
+        "losses": 8,
+        "pnl_c": 2.3948,
+        "t": 4.7559
+      },
+      "H2": {
+        "markets": 459,
+        "price": 0.9599,
+        "hit_rate": 0.9782,
+        "losses": 10,
+        "pnl_c": 1.5707,
+        "t": 2.3207
+      }
+    },
+    "1s": {
+      "all": {
+        "markets": 905,
+        "price": 0.9612,
+        "hit_rate": 0.979,
+        "losses": 19,
+        "pnl_c": 1.5223,
+        "t": 3.2223
+      },
+      "gross": {
+        "markets": 905,
+        "price": 0.9612,
+        "hit_rate": 0.979,
+        "losses": 19,
+        "pnl_c": 1.7792,
+        "t": 3.7651
+      },
+      "fee_0.05": {
+        "markets": 905,
+        "price": 0.9612,
+        "hit_rate": 0.979,
+        "losses": 19,
+        "pnl_c": 1.5957,
+        "t": 3.3774
+      },
+      "H1": {
+        "markets": 501,
+        "price": 0.9611,
+        "hit_rate": 0.982,
+        "losses": 9,
+        "pnl_c": 1.8364,
+        "t": 3.126
+      },
+      "H2": {
+        "markets": 404,
+        "price": 0.9618,
+        "hit_rate": 0.9752,
+        "losses": 10,
+        "pnl_c": 1.091,
+        "t": 1.4196
+      }
+    },
+    "2s": {
+      "all": {
+        "markets": 804,
+        "price": 0.9636,
+        "hit_rate": 0.9764,
+        "losses": 19,
+        "pnl_c": 1.0394,
+        "t": 1.9504
+      },
+      "gross": {
+        "markets": 804,
+        "price": 0.9636,
+        "hit_rate": 0.9764,
+        "losses": 19,
+        "pnl_c": 1.2812,
+        "t": 2.4034
+      },
+      "fee_0.05": {
+        "markets": 804,
+        "price": 0.9636,
+        "hit_rate": 0.9764,
+        "losses": 19,
+        "pnl_c": 1.1085,
+        "t": 2.0799
+      },
+      "H1": {
+        "markets": 453,
+        "price": 0.9636,
+        "hit_rate": 0.9801,
+        "losses": 9,
+        "pnl_c": 1.4129,
+        "t": 2.1612
+      },
+      "H2": {
+        "markets": 351,
+        "price": 0.9648,
+        "hit_rate": 0.9715,
+        "losses": 10,
+        "pnl_c": 0.4387,
+        "t": 0.4984
+      }
+    },
+    "5s": {
+      "all": {
+        "markets": 618,
+        "price": 0.9634,
+        "hit_rate": 0.9709,
+        "losses": 18,
+        "pnl_c": 0.5023,
+        "t": 0.7507
+      },
+      "gross": {
+        "markets": 618,
+        "price": 0.9634,
+        "hit_rate": 0.9709,
+        "losses": 18,
+        "pnl_c": 0.7452,
+        "t": 1.1139
+      },
+      "fee_0.05": {
+        "markets": 618,
+        "price": 0.9634,
+        "hit_rate": 0.9709,
+        "losses": 18,
+        "pnl_c": 0.5717,
+        "t": 0.8545
+      },
+      "H1": {
+        "markets": 356,
+        "price": 0.9631,
+        "hit_rate": 0.9719,
+        "losses": 10,
+        "pnl_c": 0.6392,
+        "t": 0.74
+      },
+      "H2": {
+        "markets": 262,
+        "price": 0.9636,
+        "hit_rate": 0.9695,
+        "losses": 8,
+        "pnl_c": 0.3412,
+        "t": 0.3207
+      }
+    },
+    "10s": {
+      "all": {
+        "markets": 517,
+        "price": 0.9601,
+        "hit_rate": 0.9729,
+        "losses": 14,
+        "pnl_c": 1.0213,
+        "t": 1.4451
+      },
+      "gross": {
+        "markets": 517,
+        "price": 0.9601,
+        "hit_rate": 0.9729,
+        "losses": 14,
+        "pnl_c": 1.2851,
+        "t": 1.8184
+      },
+      "fee_0.05": {
+        "markets": 517,
+        "price": 0.9601,
+        "hit_rate": 0.9729,
+        "losses": 14,
+        "pnl_c": 1.0967,
+        "t": 1.5518
+      },
+      "H1": {
+        "markets": 301,
+        "price": 0.9604,
+        "hit_rate": 0.9767,
+        "losses": 7,
+        "pnl_c": 1.3694,
+        "t": 1.5881
+      },
+      "H2": {
+        "markets": 216,
+        "price": 0.9605,
+        "hit_rate": 0.9676,
+        "losses": 7,
+        "pnl_c": 0.4463,
+        "t": 0.3722
+      }
+    },
+    "no_model_filter": {
+      "all": {
+        "markets": 2676,
+        "price": 0.9067,
+        "hit_rate": 0.904,
+        "losses": 257,
+        "pnl_c": -0.8625,
+        "t": -1.5163
+      }
+    }
+  },
+  "capacity": {
+    "days": 27.9931,
+    "shares_per_day_sample": 48943.5428,
+    "usd_per_day_sample": 47182.7892,
+    "markets_with_signal_pct": 30.0,
+    "note": "sample is every third market; multiply by ~3 for all 5-minute markets"
+  },
+  "maker": {
+    "all": {
+      "trades": 3996054,
+      "markets": 2676,
+      "shares": 114066524.1918,
+      "avg_price": 0.4957,
+      "hit_rate": 0.4959,
+      "pnl_c": 0.0197,
+      "t": 0.1834,
+      "model_edge_c": 0.5377,
+      "pnl_usd": 22510.1853
+    },
+    "by_price": {
+      "0,01–0,05": {
+        "trades": 339484,
+        "markets": 2674,
+        "shares": 15008376.6853,
+        "avg_price": 0.0189,
+        "hit_rate": 0.0208,
+        "pnl_c": 0.1839,
+        "t": 0.6671,
+        "model_edge_c": 0.733,
+        "pnl_usd": 27596.3431
+      },
+      "0,05–0,15": {
+        "trades": 474094,
+        "markets": 2676,
+        "shares": 10968111.4764,
+        "avg_price": 0.09,
+        "hit_rate": 0.0911,
+        "pnl_c": 0.1066,
+        "t": 0.1814,
+        "model_edge_c": -0.3772,
+        "pnl_usd": 11695.3849
+      },
+      "0,15–0,25": {
+        "trades": 421492,
+        "markets": 2675,
+        "shares": 8361730.3516,
+        "avg_price": 0.1958,
+        "hit_rate": 0.2045,
+        "pnl_c": 0.8662,
+        "t": 1.0018,
+        "model_edge_c": -0.7712,
+        "pnl_usd": 72430.4709
+      },
+      "0,25–0,35": {
+        "trades": 442458,
+        "markets": 2673,
+        "shares": 8543323.1381,
+        "avg_price": 0.2978,
+        "hit_rate": 0.3075,
+        "pnl_c": 0.9761,
+        "t": 1.0879,
+        "model_edge_c": -0.1361,
+        "pnl_usd": 83391.0648
+      },
+      "0,35–0,45": {
+        "trades": 472026,
+        "markets": 2628,
+        "shares": 9499388.8401,
+        "avg_price": 0.399,
+        "hit_rate": 0.4051,
+        "pnl_c": 0.6121,
+        "t": 0.7858,
+        "model_edge_c": 0.7743,
+        "pnl_usd": 58145.5325
+      },
+      "0,45–0,55": {
+        "trades": 434108,
+        "markets": 2397,
+        "shares": 9608789.8616,
+        "avg_price": 0.4983,
+        "hit_rate": 0.4976,
+        "pnl_c": -0.0678,
+        "t": -0.1428,
+        "model_edge_c": 0.7774,
+        "pnl_usd": -6516.0786
+      },
+      "0,55–0,65": {
+        "trades": 389398,
+        "markets": 2621,
+        "shares": 9571745.8404,
+        "avg_price": 0.5967,
+        "hit_rate": 0.5773,
+        "pnl_c": -1.9394,
+        "t": -2.0738,
+        "model_edge_c": 0.5747,
+        "pnl_usd": -185632.7006
+      },
+      "0,65–0,75": {
+        "trades": 337035,
+        "markets": 2663,
+        "shares": 9151085.7369,
+        "avg_price": 0.6959,
+        "hit_rate": 0.6866,
+        "pnl_c": -0.9376,
+        "t": -1.0094,
+        "model_edge_c": 1.5097,
+        "pnl_usd": -85797.2183
+      },
+      "0,75–0,85": {
+        "trades": 286714,
+        "markets": 2670,
+        "shares": 8478794.9073,
+        "avg_price": 0.796,
+        "hit_rate": 0.788,
+        "pnl_c": -0.8007,
+        "t": -0.8733,
+        "model_edge_c": 2.2212,
+        "pnl_usd": -67891.6027
+      },
+      "0,85–0,95": {
+        "trades": 228359,
+        "markets": 2675,
+        "shares": 8814098.5276,
+        "avg_price": 0.8991,
+        "hit_rate": 0.9035,
+        "pnl_c": 0.4355,
+        "t": 0.6878,
+        "model_edge_c": 1.8562,
+        "pnl_usd": 38383.2773
+      },
+      "0,95–0,99": {
+        "trades": 170886,
+        "markets": 2674,
+        "shares": 16061078.8266,
+        "avg_price": 0.9813,
+        "hit_rate": 0.986,
+        "pnl_c": 0.4776,
+        "t": 2.276,
+        "model_edge_c": -0.4515,
+        "pnl_usd": 76705.712
+      }
+    },
+    "by_phase": {
+      "0–60 s": {
+        "trades": 963118,
+        "markets": 2675,
+        "shares": 22481085.4413,
+        "avg_price": 0.5047,
+        "hit_rate": 0.5042,
+        "pnl_c": -0.056,
+        "t": -0.1635,
+        "model_edge_c": 1.0885,
+        "pnl_usd": -12589.6978
+      },
+      "60–180 s": {
+        "trades": 1754010,
+        "markets": 2675,
+        "shares": 44781426.7478,
+        "avg_price": 0.4748,
+        "hit_rate": 0.4749,
+        "pnl_c": 0.0164,
+        "t": 0.0875,
+        "model_edge_c": 0.4744,
+        "pnl_usd": 7341.9997
+      },
+      "180–240 s": {
+        "trades": 841731,
+        "markets": 2621,
+        "shares": 27068926.4316,
+        "avg_price": 0.4651,
+        "hit_rate": 0.4637,
+        "pnl_c": -0.1341,
+        "t": -0.6869,
+        "model_edge_c": 0.3976,
+        "pnl_usd": -36286.5183
+      },
+      "240–300 s": {
+        "trades": 437195,
+        "markets": 2268,
+        "shares": 19735085.571,
+        "avg_price": 0.5751,
+        "hit_rate": 0.5783,
+        "pnl_c": 0.3245,
+        "t": 2.2695,
+        "model_edge_c": 0.2464,
+        "pnl_usd": 64044.4017
+      }
+    },
+    "by_model": {
+      "model_against_maker": {
+        "trades": 2089879,
+        "markets": 2676,
+        "shares": 52819637.7145,
+        "avg_price": 0.3636,
+        "hit_rate": 0.3405,
+        "pnl_c": -2.3025,
+        "t": -5.9304,
+        "model_edge_c": -6.8387,
+        "pnl_usd": -1216191.5719
+      },
+      "model_with_maker": {
+        "trades": 1906175,
+        "markets": 2676,
+        "shares": 61246886.4773,
+        "avg_price": 0.6097,
+        "hit_rate": 0.6299,
+        "pnl_c": 2.0225,
+        "t": 5.3749,
+        "model_edge_c": 6.8992,
+        "pnl_usd": 1238701.7572
+      }
+    },
+    "by_phase_and_model": {
+      "0–60 s | model_against_maker": {
+        "trades": 497535,
+        "markets": 2675,
+        "shares": 9973693.1266,
+        "avg_price": 0.4449,
+        "hit_rate": 0.4207,
+        "pnl_c": -2.4196,
+        "t": -3.0144,
+        "model_edge_c": -6.9715,
+        "pnl_usd": -241325.8828
+      },
+      "0–60 s | model_with_maker": {
+        "trades": 465583,
+        "markets": 2675,
+        "shares": 12507392.3147,
+        "avg_price": 0.5524,
+        "hit_rate": 0.5707,
+        "pnl_c": 1.8288,
+        "t": 1.9437,
+        "model_edge_c": 7.5157,
+        "pnl_usd": 228736.185
+      },
+      "60–180 s | model_against_maker": {
+        "trades": 941752,
+        "markets": 2675,
+        "shares": 21779954.8197,
+        "avg_price": 0.342,
+        "hit_rate": 0.3202,
+        "pnl_c": -2.1723,
+        "t": -4.0184,
+        "model_edge_c": -6.4057,
+        "pnl_usd": -473124.721
+      },
+      "60–180 s | model_with_maker": {
+        "trades": 812258,
+        "markets": 2675,
+        "shares": 23001471.9281,
+        "avg_price": 0.6005,
+        "hit_rate": 0.6214,
+        "pnl_c": 2.0889,
+        "t": 3.6032,
+        "model_edge_c": 6.9891,
+        "pnl_usd": 480466.7207
+      },
+      "180–240 s | model_against_maker": {
+        "trades": 439240,
+        "markets": 2414,
+        "shares": 13018582.8253,
+        "avg_price": 0.3172,
+        "hit_rate": 0.2967,
+        "pnl_c": -2.051,
+        "t": -3.8478,
+        "model_edge_c": -5.7036,
+        "pnl_usd": -267011.4804
+      },
+      "180–240 s | model_with_maker": {
+        "trades": 402491,
+        "markets": 2616,
+        "shares": 14050343.6062,
+        "avg_price": 0.602,
+        "hit_rate": 0.6185,
+        "pnl_c": 1.6421,
+        "t": 3.3754,
+        "model_edge_c": 6.0508,
+        "pnl_usd": 230724.9621
+      },
+      "240–300 s | model_against_maker": {
+        "trades": 211352,
+        "markets": 1378,
+        "shares": 8047406.9428,
+        "avg_price": 0.3962,
+        "hit_rate": 0.367,
+        "pnl_c": -2.9168,
+        "t": -5.1355,
+        "model_edge_c": -9.6824,
+        "pnl_usd": -234729.4878
+      },
+      "240–300 s | model_with_maker": {
+        "trades": 225843,
+        "markets": 2263,
+        "shares": 11687678.6282,
+        "avg_price": 0.6983,
+        "hit_rate": 0.7238,
+        "pnl_c": 2.5563,
+        "t": 6.4093,
+        "model_edge_c": 7.0827,
+        "pnl_usd": 298773.8894
+      }
+    },
+    "limit_on_favourite": {
+      "0s": {
+        "trades": 29367,
+        "markets": 1314,
+        "shares": 2175256.7641,
+        "avg_price": 0.9637,
+        "hit_rate": 0.9889,
+        "pnl_c": 2.5214,
+        "t": 7.437,
+        "model_edge_c": 3.6057,
+        "pnl_usd": 54847.9854,
+        "first_opportunity": {
+          "markets": 1314,
+          "price": 0.9608,
+          "hit_rate": 0.9871,
+          "losses": 17,
+          "pnl_c": 2.6282,
+          "t": 8.4242
+        },
+        "by_route": {
+          "taker_buy_opposite": {
+            "trades": 16931,
+            "markets": 1158,
+            "shares": 1777396.9141,
+            "avg_price": 0.9636,
+            "hit_rate": 0.9887,
+            "pnl_c": 2.5096,
+            "t": 6.9539,
+            "model_edge_c": 3.6159,
+            "pnl_usd": 44606.3646
+          },
+          "taker_sell": {
+            "trades": 12436,
+            "markets": 1198,
+            "shares": 397859.85,
+            "avg_price": 0.9642,
+            "hit_rate": 0.9899,
+            "pnl_c": 2.5742,
+            "t": 5.3059,
+            "model_edge_c": 3.5601,
+            "pnl_usd": 10241.6207
+          }
+        },
+        "H1": {
+          "trades": 16577,
+          "markets": 712,
+          "shares": 1295778.2606,
+          "avg_price": 0.9637,
+          "hit_rate": 0.9905,
+          "pnl_c": 2.6863,
+          "t": 7.1832,
+          "model_edge_c": 3.6125,
+          "pnl_usd": 34808.8705
+        },
+        "H2": {
+          "trades": 12790,
+          "markets": 602,
+          "shares": 879478.5035,
+          "avg_price": 0.9638,
+          "hit_rate": 0.9866,
+          "pnl_c": 2.2785,
+          "t": 3.6081,
+          "model_edge_c": 3.5956,
+          "pnl_usd": 20039.1149
+        }
+      },
+      "2s": {
+        "trades": 26185,
+        "markets": 1071,
+        "shares": 1953293.425,
+        "avg_price": 0.9641,
+        "hit_rate": 0.9878,
+        "pnl_c": 2.3662,
+        "t": 6.3573,
+        "model_edge_c": 3.5412,
+        "pnl_usd": 46219.2315,
+        "first_opportunity": {
+          "markets": 1071,
+          "price": 0.9642,
+          "hit_rate": 0.9823,
+          "losses": 19,
+          "pnl_c": 1.8078,
+          "t": 4.5143
+        }
+      },
+      "5s": {
+        "trades": 25156,
+        "markets": 858,
+        "shares": 1798932.1238,
+        "avg_price": 0.9635,
+        "hit_rate": 0.9866,
+        "pnl_c": 2.3019,
+        "t": 5.6286,
+        "model_edge_c": 3.4617,
+        "pnl_usd": 41410.3579,
+        "first_opportunity": {
+          "markets": 858,
+          "price": 0.965,
+          "hit_rate": 0.9779,
+          "losses": 19,
+          "pnl_c": 1.2831,
+          "t": 2.5734
+        }
+      },
+      "no_model_filter": {
+        "trades": 210321,
+        "markets": 2676,
+        "shares": 11014473.1929,
+        "avg_price": 0.9485,
+        "hit_rate": 0.9548,
+        "pnl_c": 0.622,
+        "t": 1.5642,
+        "model_edge_c": 0.8227,
+        "pnl_usd": 68512.6241
+      }
+    },
+    "markout_c": {
+      "5s": -0.1439,
+      "30s": -0.3327
+    },
+    "quote_around_model": {
+      "lag0_delta0.00": {
+        "trades": 1906175,
+        "markets": 2676,
+        "shares": 61246886.4773,
+        "avg_price": 0.6097,
+        "hit_rate": 0.6299,
+        "pnl_c": 2.0225,
+        "t": 5.3749,
+        "model_edge_c": 6.8992,
+        "pnl_usd": 1238701.7572,
+        "volume_share_pct": 53.694
+      },
+      "lag0_delta0.01": {
+        "trades": 1651044,
+        "markets": 2676,
+        "shares": 49441863.1918,
+        "avg_price": 0.5821,
+        "hit_rate": 0.6053,
+        "pnl_c": 2.317,
+        "t": 5.0212,
+        "model_edge_c": 8.3783,
+        "pnl_usd": 1145569.6534,
+        "volume_share_pct": 43.3448
+      },
+      "lag0_delta0.02": {
+        "trades": 1431368,
+        "markets": 2676,
+        "shares": 41017547.475,
+        "avg_price": 0.5615,
+        "hit_rate": 0.5878,
+        "pnl_c": 2.6315,
+        "t": 4.838,
+        "model_edge_c": 9.8018,
+        "pnl_usd": 1079387.8738,
+        "volume_share_pct": 35.9593
+      },
+      "lag0_delta0.03": {
+        "trades": 1246445,
+        "markets": 2676,
+        "shares": 35640416.2216,
+        "avg_price": 0.5563,
+        "hit_rate": 0.5852,
+        "pnl_c": 2.8952,
+        "t": 4.7686,
+        "model_edge_c": 10.9013,
+        "pnl_usd": 1031878.3647,
+        "volume_share_pct": 31.2453
+      },
+      "lag0_delta0.05": {
+        "trades": 933711,
+        "markets": 2675,
+        "shares": 26783920.4289,
+        "avg_price": 0.546,
+        "hit_rate": 0.5813,
+        "pnl_c": 3.5257,
+        "t": 4.704,
+        "model_edge_c": 13.1908,
+        "pnl_usd": 944313.5224,
+        "volume_share_pct": 23.481
+      },
+      "lag0_delta0.10": {
+        "trades": 440551,
+        "markets": 2600,
+        "shares": 12909760.4993,
+        "avg_price": 0.5079,
+        "hit_rate": 0.5592,
+        "pnl_c": 5.1292,
+        "t": 4.1799,
+        "model_edge_c": 19.6226,
+        "pnl_usd": 662161.5558,
+        "volume_share_pct": 11.3177
+      },
+      "lag2_delta0.00": {
+        "trades": 1993988,
+        "markets": 2676,
+        "shares": 62693250.014,
+        "avg_price": 0.5956,
+        "hit_rate": 0.6054,
+        "pnl_c": 0.9821,
+        "t": 2.5949,
+        "model_edge_c": 6.0883,
+        "pnl_usd": 615736.722,
+        "volume_share_pct": 54.962
+      },
+      "lag2_delta0.01": {
+        "trades": 1716186,
+        "markets": 2676,
+        "shares": 50012635.2968,
+        "avg_price": 0.5663,
+        "hit_rate": 0.5773,
+        "pnl_c": 1.1012,
+        "t": 2.3449,
+        "model_edge_c": 7.4816,
+        "pnl_usd": 550718.7581,
+        "volume_share_pct": 43.8451
+      },
+      "lag2_delta0.02": {
+        "trades": 1477429,
+        "markets": 2676,
+        "shares": 41457971.9037,
+        "avg_price": 0.5486,
+        "hit_rate": 0.5606,
+        "pnl_c": 1.2043,
+        "t": 2.1735,
+        "model_edge_c": 8.7541,
+        "pnl_usd": 499288.3588,
+        "volume_share_pct": 36.3454
+      },
+      "lag2_delta0.03": {
+        "trades": 1273914,
+        "markets": 2676,
+        "shares": 35661165.8141,
+        "avg_price": 0.5446,
+        "hit_rate": 0.5576,
+        "pnl_c": 1.3001,
+        "t": 2.081,
+        "model_edge_c": 9.8097,
+        "pnl_usd": 463633.3265,
+        "volume_share_pct": 31.2635
+      },
+      "lag2_delta0.05": {
+        "trades": 934660,
+        "markets": 2675,
+        "shares": 26266577.6103,
+        "avg_price": 0.535,
+        "hit_rate": 0.5495,
+        "pnl_c": 1.4491,
+        "t": 1.8594,
+        "model_edge_c": 12.0088,
+        "pnl_usd": 380619.1564,
+        "volume_share_pct": 23.0274
+      },
+      "lag2_delta0.10": {
+        "trades": 423249,
+        "markets": 2494,
+        "shares": 12082439.3591,
+        "avg_price": 0.497,
+        "hit_rate": 0.5177,
+        "pnl_c": 2.0688,
+        "t": 1.5764,
+        "model_edge_c": 18.2923,
+        "pnl_usd": 249958.6291,
+        "volume_share_pct": 10.5924
+      },
+      "lag5_delta0.00": {
+        "trades": 2217017,
+        "markets": 2676,
+        "shares": 65112571.5051,
+        "avg_price": 0.5536,
+        "hit_rate": 0.5565,
+        "pnl_c": 0.2871,
+        "t": 0.8589,
+        "model_edge_c": 4.7527,
+        "pnl_usd": 186941.5342,
+        "volume_share_pct": 57.083
+      },
+      "lag5_delta0.01": {
+        "trades": 1976628,
+        "markets": 2676,
+        "shares": 52749259.6451,
+        "avg_price": 0.5166,
+        "hit_rate": 0.5192,
+        "pnl_c": 0.2544,
+        "t": 0.6231,
+        "model_edge_c": 5.7604,
+        "pnl_usd": 134180.8746,
+        "volume_share_pct": 46.2443
+      },
+      "lag5_delta0.02": {
+        "trades": 1772093,
+        "markets": 2676,
+        "shares": 44921423.7542,
+        "avg_price": 0.4977,
+        "hit_rate": 0.5002,
+        "pnl_c": 0.2543,
+        "t": 0.5389,
+        "model_edge_c": 6.6,
+        "pnl_usd": 114212.726,
+        "volume_share_pct": 39.3818
+      },
+      "lag5_delta0.03": {
+        "trades": 1593628,
+        "markets": 2676,
+        "shares": 39439168.2811,
+        "avg_price": 0.4913,
+        "hit_rate": 0.4931,
+        "pnl_c": 0.1853,
+        "t": 0.3546,
+        "model_edge_c": 7.2938,
+        "pnl_usd": 73073.8435,
+        "volume_share_pct": 34.5756
+      },
+      "lag5_delta0.05": {
+        "trades": 1271895,
+        "markets": 2675,
+        "shares": 30341068.196,
+        "avg_price": 0.4782,
+        "hit_rate": 0.4807,
+        "pnl_c": 0.2498,
+        "t": 0.3924,
+        "model_edge_c": 8.7037,
+        "pnl_usd": 75802.801,
+        "volume_share_pct": 26.5995
+      },
+      "lag5_delta0.10": {
+        "trades": 692889,
+        "markets": 2645,
+        "shares": 15602015.9544,
+        "avg_price": 0.4411,
+        "hit_rate": 0.443,
+        "pnl_c": 0.1922,
+        "t": 0.1967,
+        "model_edge_c": 12.472,
+        "pnl_usd": 29983.0786,
+        "volume_share_pct": 13.678
+      },
+      "lag2_delta0.02_by_half": {
+        "H1": {
+          "trades": 761053,
+          "markets": 1336,
+          "shares": 21231053.3209,
+          "avg_price": 0.5636,
+          "hit_rate": 0.5822,
+          "pnl_c": 1.8551,
+          "t": 2.5551,
+          "model_edge_c": 8.8208,
+          "pnl_usd": 393861.6037
+        },
+        "H2": {
+          "trades": 716376,
+          "markets": 1340,
+          "shares": 20226918.5827,
+          "avg_price": 0.5328,
+          "hit_rate": 0.538,
+          "pnl_c": 0.5212,
+          "t": 0.619,
+          "model_edge_c": 8.6841,
+          "pnl_usd": 105426.7551
+        }
+      },
+      "lag2_delta0.02_price_0.05-0.95": {
+        "trades": 1394101,
+        "markets": 2675,
+        "shares": 37112024.5556,
+        "avg_price": 0.5583,
+        "hit_rate": 0.57,
+        "pnl_c": 1.164,
+        "t": 1.9109,
+        "model_edge_c": 8.9698,
+        "pnl_usd": 431976.0157
+      },
+      "lag2_delta0.05_by_half": {
+        "H1": {
+          "trades": 507558,
+          "markets": 1335,
+          "shares": 13889277.9733,
+          "avg_price": 0.5473,
+          "hit_rate": 0.5673,
+          "pnl_c": 2.0004,
+          "t": 2.0376,
+          "model_edge_c": 11.8298,
+          "pnl_usd": 277844.7342
+        },
+        "H2": {
+          "trades": 427102,
+          "markets": 1340,
+          "shares": 12377299.637,
+          "avg_price": 0.5211,
+          "hit_rate": 0.5294,
+          "pnl_c": 0.8303,
+          "t": 0.673,
+          "model_edge_c": 12.2097,
+          "pnl_usd": 102774.4223
+        }
+      },
+      "lag2_delta0.05_price_0.05-0.95": {
+        "trades": 904734,
+        "markets": 2675,
+        "shares": 25072219.7169,
+        "avg_price": 0.5594,
+        "hit_rate": 0.5737,
+        "pnl_c": 1.4311,
+        "t": 1.7637,
+        "model_edge_c": 11.7396,
+        "pnl_usd": 358818.2024
+      }
+    }
+  },
+  "fok": {
+    "0s": {
+      "1": {
+        "markets": 1011,
+        "markets_pct": 37.7239,
+        "price": 0.9594,
+        "hit_rate": 0.9822,
+        "losses": 18,
+        "pnl_c": 2.0119,
+        "t": 4.8932,
+        "pnl_c_fee_0.05": 2.0887,
+        "usd_per_day_sample": 0.7266,
+        "usd_per_day_all_markets": 2.1799
+      },
+      "100": {
+        "markets": 900,
+        "markets_pct": 33.5821,
+        "price": 0.9608,
+        "hit_rate": 0.9822,
+        "losses": 16,
+        "pnl_c": 1.8861,
+        "t": 4.3172,
+        "pnl_c_fee_0.05": 1.9605,
+        "usd_per_day_sample": 60.6388,
+        "usd_per_day_all_markets": 181.9163
+      },
+      "500": {
+        "markets": 498,
+        "markets_pct": 18.5821,
+        "price": 0.9644,
+        "hit_rate": 0.9759,
+        "losses": 12,
+        "pnl_c": 0.9159,
+        "t": 1.3573,
+        "pnl_c_fee_0.05": 0.9839,
+        "usd_per_day_sample": 81.469,
+        "usd_per_day_all_markets": 244.4071
+      },
+      "1000": {
+        "markets": 168,
+        "markets_pct": 6.2687,
+        "price": 0.9622,
+        "hit_rate": 0.9643,
+        "losses": 6,
+        "pnl_c": -0.0474,
+        "t": -0.0334,
+        "pnl_c_fee_0.05": 0.0247,
+        "usd_per_day_sample": -2.8443,
+        "usd_per_day_all_markets": -8.5329
+      },
+      "fak_avg_fill_pct": {
+        "100": 72.9836,
+        "500": 39.4658,
+        "1000": 23.5916
+      },
+      "first_second_liquidity_median_shares": 128.0
+    },
+    "1s": {
+      "1": {
+        "markets": 905,
+        "markets_pct": 33.7687,
+        "price": 0.9611,
+        "hit_rate": 0.979,
+        "losses": 19,
+        "pnl_c": 1.5341,
+        "t": 3.2517,
+        "pnl_c_fee_0.05": 1.6078,
+        "usd_per_day_sample": 0.496,
+        "usd_per_day_all_markets": 1.4879
+      },
+      "100": {
+        "markets": 808,
+        "markets_pct": 30.1493,
+        "price": 0.9615,
+        "hit_rate": 0.979,
+        "losses": 17,
+        "pnl_c": 1.4874,
+        "t": 2.9776,
+        "pnl_c_fee_0.05": 1.5604,
+        "usd_per_day_sample": 42.9322,
+        "usd_per_day_all_markets": 128.7965
+      },
+      "500": {
+        "markets": 455,
+        "markets_pct": 16.9776,
+        "price": 0.9652,
+        "hit_rate": 0.9758,
+        "losses": 11,
+        "pnl_c": 0.83,
+        "t": 1.1731,
+        "pnl_c_fee_0.05": 0.8965,
+        "usd_per_day_sample": 67.4541,
+        "usd_per_day_all_markets": 202.3624
+      },
+      "1000": {
+        "markets": 151,
+        "markets_pct": 5.6343,
+        "price": 0.9623,
+        "hit_rate": 0.9603,
+        "losses": 6,
+        "pnl_c": -0.4518,
+        "t": -0.2872,
+        "pnl_c_fee_0.05": -0.3798,
+        "usd_per_day_sample": -24.3699,
+        "usd_per_day_all_markets": -73.1098
+      },
+      "fak_avg_fill_pct": {
+        "100": 77.8466,
+        "500": 43.5517,
+        "1000": 26.1676
+      },
+      "first_second_liquidity_median_shares": 163.067
+    },
+    "2s": {
+      "1": {
+        "markets": 804,
+        "markets_pct": 30.0,
+        "price": 0.9633,
+        "hit_rate": 0.9764,
+        "losses": 19,
+        "pnl_c": 1.066,
+        "t": 2.0065,
+        "pnl_c_fee_0.05": 1.1358,
+        "usd_per_day_sample": 0.3062,
+        "usd_per_day_all_markets": 0.9185
+      },
+      "100": {
+        "markets": 706,
+        "markets_pct": 26.3433,
+        "price": 0.9628,
+        "hit_rate": 0.9773,
+        "losses": 16,
+        "pnl_c": 1.2064,
+        "t": 2.1724,
+        "pnl_c_fee_0.05": 1.2771,
+        "usd_per_day_sample": 30.4262,
+        "usd_per_day_all_markets": 91.2786
+      },
+      "500": {
+        "markets": 395,
+        "markets_pct": 14.7388,
+        "price": 0.9648,
+        "hit_rate": 0.9747,
+        "losses": 10,
+        "pnl_c": 0.7499,
+        "t": 0.9649,
+        "pnl_c_fee_0.05": 0.817,
+        "usd_per_day_sample": 52.9062,
+        "usd_per_day_all_markets": 158.7186
+      },
+      "1000": {
+        "markets": 133,
+        "markets_pct": 4.9627,
+        "price": 0.9621,
+        "hit_rate": 0.9549,
+        "losses": 6,
+        "pnl_c": -0.9779,
+        "t": -0.549,
+        "pnl_c_fee_0.05": -0.9057,
+        "usd_per_day_sample": -46.4614,
+        "usd_per_day_all_markets": -139.3841
+      },
+      "fak_avg_fill_pct": {
+        "100": 79.0983,
+        "500": 45.0318,
+        "1000": 27.4409
+      },
+      "first_second_liquidity_median_shares": 172.0533
+    },
+    "5s": {
+      "1": {
+        "markets": 618,
+        "markets_pct": 23.0597,
+        "price": 0.9629,
+        "hit_rate": 0.9709,
+        "losses": 18,
+        "pnl_c": 0.5512,
+        "t": 0.8213,
+        "pnl_c_fee_0.05": 0.6216,
+        "usd_per_day_sample": 0.1217,
+        "usd_per_day_all_markets": 0.365
+      },
+      "100": {
+        "markets": 549,
+        "markets_pct": 20.4851,
+        "price": 0.963,
+        "hit_rate": 0.9763,
+        "losses": 13,
+        "pnl_c": 1.0819,
+        "t": 1.6847,
+        "pnl_c_fee_0.05": 1.1521,
+        "usd_per_day_sample": 21.2183,
+        "usd_per_day_all_markets": 63.6549
+      },
+      "500": {
+        "markets": 291,
+        "markets_pct": 10.8582,
+        "price": 0.963,
+        "hit_rate": 0.9691,
+        "losses": 9,
+        "pnl_c": 0.3624,
+        "t": 0.3604,
+        "pnl_c_fee_0.05": 0.4329,
+        "usd_per_day_sample": 18.8358,
+        "usd_per_day_all_markets": 56.5074
+      },
+      "1000": {
+        "markets": 95,
+        "markets_pct": 3.5448,
+        "price": 0.9603,
+        "hit_rate": 0.9579,
+        "losses": 4,
+        "pnl_c": -0.5093,
+        "t": -0.248,
+        "pnl_c_fee_0.05": -0.4338,
+        "usd_per_day_sample": -17.2843,
+        "usd_per_day_all_markets": -51.8528
+      },
+      "fak_avg_fill_pct": {
+        "100": 69.4041,
+        "500": 35.3367,
+        "1000": 21.3193
+      },
+      "first_second_liquidity_median_shares": 101.2398
+    }
+  }
+}
