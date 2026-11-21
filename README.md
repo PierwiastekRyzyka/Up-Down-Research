@@ -22,8 +22,8 @@ ok. 35 tys. portfeli, 61 mln USD obrotu.
 | Portfele z istotnym zyskiem w obu połowach próby | 13 (wszystkie kupują faworytów po ok. 0,99 USD) |
 | Reguła faworyta, zlecenie limit (bez opłaty) | +2,63¢ na akcję, t = 8,4 |
 | Reguła faworyta, FOK (opłata 0,07) | +2,02¢ na akcję, t = 4,9 |
-
 | Zlecenia kupna po 0,45–0,49 na obie strony przed startem | od −1,1 do −3,7¢ na rynek, we wszystkich wariantach |
+| NIULAI4 i Atomforge (zyskowni na początku października) | −1,4 tys. USD (t = −0,5) i +7,6 tys. USD (t = 1,1) |
 
 Wniosek: ceny są efektywne z dokładnością do ok. 3 sekund. Jedyna nieefektywność, która
 przetrwała test poza próbą, dotyczy prawie pewnych faworytów i wynika z kształtu opłaty
@@ -33,6 +33,10 @@ Zlecenia na obie strony (`analysis/08_two_sided_bids.py`): para wypełniona po 0
 (+0,7¢ rabatu), ale gdy wypełnia się tylko jedna noga, jest to zwykle strona przegrywająca:
 wygrywa w 24–41% przypadków przy cenie zakupu 0,45–0,49. Dokupienie drugiej strony zaraz po
 wypełnieniu też traci (od −1,5 do −3,5¢ na rynek), bo cena zdąży się przesunąć.
+
+Znane portfele (`analysis/09_known_wallets.py`): dwa portfele zyskowne na tych rynkach na
+początku października nie mają w próbie istotnej przewagi na rynkach 5m. Po odjęciu 5%
+najlepszych rynków oba wyniki są ujemne.
 
 ## Metoda
 
@@ -81,7 +85,7 @@ src/pm5m/
   sample.py        ładowanie próby, wartość modelu dla każdej transakcji
   strategies.py    reguła faworyta
   stats.py         Brier, regresja logistyczna, błędy klastrowane po rynku
-analysis/          skrypty 01–08, po jednym na rozdział badania
+analysis/          skrypty 01–09, po jednym na rozdział badania
 results/           wyniki liczbowe (JSON)
 figures/           wykresy
 tests/             test modelu (Monte Carlo)
@@ -94,7 +98,7 @@ docs/raport.pdf    pełny raport
 make install     # pip install -e ".[dev]"
 make data        # pobranie danych, ok. 20 min
 make panel       # budowa tabel analitycznych
-make analysis    # analysis/01–08 -> results/, figures/
+make analysis    # analysis/01–09 -> results/, figures/
 make test
 ```
 

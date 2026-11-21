@@ -117,24 +117,25 @@ res["pre_start"] = {"share_of_trades_pct": 100 * len(pre) / len(t),
                     "markets_with_pre_start_trade_pct": 100 * pre.start_ts.nunique() / len(by_market)}
 write("08_two_sided_bids", res)
 
-# figure: outcome mix and expected PnL by bid level (cancel at 60 s and at end)
+# figure: outcome mix when held to the end, and expected PnL by bid level
 fig, axs = plt.subplots(1, 2, figsize=(9.6, 3.5))
 x = np.arange(len(LEVELS))
 g = res["grid"]
 for j, (mode, c, color, style) in enumerate((("touch", 60, INK, "o-"), ("through", 60, DARK, "s--"),
                                               ("touch", 300, MID, "^-"), ("through", 300, LIGHT, "v--"))):
     axs[1].plot(LEVELS, [g[f"{mode}|b={b:.2f}|cancel={c}s"]["pnl_c_per_market"] for b in LEVELS], style, color=color,
-                label=f"{'dotknięcie' if mode == 'touch' else 'przejście'}, anulowanie po {c} s")
+                label=f"{'dotknięcie' if mode == 'touch' else 'przejście'}, " + ("do końca okna" if c == 300 else f"anulowanie po {c} s"))
 axs[1].axhline(0, color="#333333", lw=.8)
 axs[1].set_xticks(LEVELS, [f"{b:.2f}".replace(".", ",") for b in LEVELS])
 axs[1].set(xlabel="cena zleceń kupna b [USD]", ylabel="średni PnL na rynek [¢ na akcję]", title="Wynik strategii na rynek")
 axs[1].legend(fontsize=7, loc="lower left")
-key = lambda b: g[f"through|b={b:.2f}|cancel=60s"]
+key = lambda b: g[f"touch|b={b:.2f}|cancel=300s"]
 both = [key(b)["both_pct"] for b in LEVELS]
 one = [key(b)["one_pct"] for b in LEVELS]
 axs[0].bar(x, both, .6, color=INK, label="obie nogi")
 axs[0].bar(x, one, .6, bottom=both, color=LIGHT, label="jedna noga")
 axs[0].set_xticks(x, [f"{b:.2f}".replace(".", ",") for b in LEVELS])
-axs[0].set(xlabel="cena zleceń kupna b [USD]", ylabel="% rynków", title="Wypełnienia (przejście, anulowanie po 60 s)")
-axs[0].legend(fontsize=7)
+axs[0].set(xlabel="cena zleceń kupna b [USD]", ylabel="% rynków", title="Wypełnienia (dotknięcie, do końca okna)")
+axs[0].set_ylim(0, 118)
+axs[0].legend(fontsize=7, ncol=2, loc="upper center")
 save(fig, "fig10_two_sided_bids.png")
