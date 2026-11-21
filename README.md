@@ -23,9 +23,16 @@ ok. 35 tys. portfeli, 61 mln USD obrotu.
 | Reguła faworyta, zlecenie limit (bez opłaty) | +2,63¢ na akcję, t = 8,4 |
 | Reguła faworyta, FOK (opłata 0,07) | +2,02¢ na akcję, t = 4,9 |
 
+| Zlecenia kupna po 0,45–0,49 na obie strony przed startem | od −1,1 do −3,7¢ na rynek, we wszystkich wariantach |
+
 Wniosek: ceny są efektywne z dokładnością do ok. 3 sekund. Jedyna nieefektywność, która
 przetrwała test poza próbą, dotyczy prawie pewnych faworytów i wynika z kształtu opłaty
 `0,07 · p · (1 − p)`, która przy cenie 0,99 jest bliska zera. Pojemność tej strategii jest mała.
+
+Zlecenia na obie strony (`analysis/08_two_sided_bids.py`): para wypełniona po 0,49 zarabia 2¢
+(+0,7¢ rabatu), ale gdy wypełnia się tylko jedna noga, jest to zwykle strona przegrywająca:
+wygrywa w 24–41% przypadków przy cenie zakupu 0,45–0,49. Dokupienie drugiej strony zaraz po
+wypełnieniu też traci (od −1,5 do −3,5¢ na rynek), bo cena zdąży się przesunąć.
 
 ## Metoda
 
@@ -74,7 +81,7 @@ src/pm5m/
   sample.py        ładowanie próby, wartość modelu dla każdej transakcji
   strategies.py    reguła faworyta
   stats.py         Brier, regresja logistyczna, błędy klastrowane po rynku
-analysis/          skrypty 01–07, po jednym na rozdział badania
+analysis/          skrypty 01–08, po jednym na rozdział badania
 results/           wyniki liczbowe (JSON)
 figures/           wykresy
 tests/             test modelu (Monte Carlo)
@@ -87,7 +94,7 @@ docs/raport.pdf    pełny raport
 make install     # pip install -e ".[dev]"
 make data        # pobranie danych, ok. 20 min
 make panel       # budowa tabel analitycznych
-make analysis    # analysis/01–07 -> results/, figures/
+make analysis    # analysis/01–08 -> results/, figures/
 make test
 ```
 
